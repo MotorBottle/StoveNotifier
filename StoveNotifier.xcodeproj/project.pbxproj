@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB836FE29BDF76B001E2FA2 /* StoveNotifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB836FD29BDF76B001E2FA2 /* StoveNotifierApp.swift */; };
+		ECB8370029BDF76B001E2FA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB836FF29BDF76B001E2FA2 /* ContentView.swift */; };
+		ECB8370229BDF76D001E2FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB8370129BDF76D001E2FA2 /* Assets.xcassets */; };
+		ECB8370529BDF76D001E2FA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB8370429BDF76D001E2FA2 /* Preview Assets.xcassets */; };
+		ECB8370F29BDF76D001E2FA2 /* StoveNotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8370E29BDF76D001E2FA2 /* StoveNotifierTests.swift */; };
+		ECB8371929BDF76D001E2FA2 /* StoveNotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8371829BDF76D001E2FA2 /* StoveNotifierUITests.swift */; };
+		ECB8371B29BDF76E001E2FA2 /* StoveNotifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8371A29BDF76E001E2FA2 /* StoveNotifierUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB8370B29BDF76D001E2FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB836F229BDF76B001E2FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB836F929BDF76B001E2FA2;
+			remoteInfo = StoveNotifier;
+		};
+		ECB8371529BDF76D001E2FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB836F229BDF76B001E2FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB836F929BDF76B001E2FA2;
+			remoteInfo = StoveNotifier;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECB836FA29BDF76B001E2FA2 /* StoveNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoveNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB836FD29BDF76B001E2FA2 /* StoveNotifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveNotifierApp.swift; sourceTree = "<group>"; };
+		ECB836FF29BDF76B001E2FA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECB8370129BDF76D001E2FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB8370429BDF76D001E2FA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECB8370A29BDF76D001E2FA2 /* StoveNotifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoveNotifierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB8370E29BDF76D001E2FA2 /* StoveNotifierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveNotifierTests.swift; sourceTree = "<group>"; };
+		ECB8371429BDF76D001E2FA2 /* StoveNotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoveNotifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB8371829BDF76D001E2FA2 /* StoveNotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveNotifierUITests.swift; sourceTree = "<group>"; };
+		ECB8371A29BDF76E001E2FA2 /* StoveNotifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveNotifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB836F729BDF76B001E2FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB8370729BDF76D001E2FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB8371129BDF76D001E2FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB836F129BDF76B001E2FA2 = {
+			isa = PBXGroup;
+			children = (
+				ECB836FC29BDF76B001E2FA2 /* StoveNotifier */,
+				ECB8370D29BDF76D001E2FA2 /* StoveNotifierTests */,
+				ECB8371729BDF76D001E2FA2 /* StoveNotifierUITests */,
+				ECB836FB29BDF76B001E2FA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB836FB29BDF76B001E2FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB836FA29BDF76B001E2FA2 /* StoveNotifier.app */,
+				ECB8370A29BDF76D001E2FA2 /* StoveNotifierTests.xctest */,
+				ECB8371429BDF76D001E2FA2 /* StoveNotifierUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB836FC29BDF76B001E2FA2 /* StoveNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				ECB836FD29BDF76B001E2FA2 /* StoveNotifierApp.swift */,
+				ECB836FF29BDF76B001E2FA2 /* ContentView.swift */,
+				ECB8370129BDF76D001E2FA2 /* Assets.xcassets */,
+				ECB8370329BDF76D001E2FA2 /* Preview Content */,
+			);
+			path = StoveNotifier;
+			sourceTree = "<group>";
+		};
+		ECB8370329BDF76D001E2FA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8370429BDF76D001E2FA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECB8370D29BDF76D001E2FA2 /* StoveNotifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8370E29BDF76D001E2FA2 /* StoveNotifierTests.swift */,
+			);
+			path = StoveNotifierTests;
+			sourceTree = "<group>";
+		};
+		ECB8371729BDF76D001E2FA2 /* StoveNotifierUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8371829BDF76D001E2FA2 /* StoveNotifierUITests.swift */,
+				ECB8371A29BDF76E001E2FA2 /* StoveNotifierUITestsLaunchTests.swift */,
+			);
+			path = StoveNotifierUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB836F929BDF76B001E2FA2 /* StoveNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB8371E29BDF76E001E2FA2 /* Build configuration list for PBXNativeTarget "StoveNotifier" */;
+			buildPhases = (
+				ECB836F629BDF76B001E2FA2 /* Sources */,
+				ECB836F729BDF76B001E2FA2 /* Frameworks */,
+				ECB836F829BDF76B001E2FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoveNotifier;
+			productName = StoveNotifier;
+			productReference = ECB836FA29BDF76B001E2FA2 /* StoveNotifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB8370929BDF76D001E2FA2 /* StoveNotifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB8372129BDF76E001E2FA2 /* Build configuration list for PBXNativeTarget "StoveNotifierTests" */;
+			buildPhases = (
+				ECB8370629BDF76D001E2FA2 /* Sources */,
+				ECB8370729BDF76D001E2FA2 /* Frameworks */,
+				ECB8370829BDF76D001E2FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB8370C29BDF76D001E2FA2 /* PBXTargetDependency */,
+			);
+			name = StoveNotifierTests;
+			productName = StoveNotifierTests;
+			productReference = ECB8370A29BDF76D001E2FA2 /* StoveNotifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB8371329BDF76D001E2FA2 /* StoveNotifierUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB8372429BDF76E001E2FA2 /* Build configuration list for PBXNativeTarget "StoveNotifierUITests" */;
+			buildPhases = (
+				ECB8371029BDF76D001E2FA2 /* Sources */,
+				ECB8371129BDF76D001E2FA2 /* Frameworks */,
+				ECB8371229BDF76D001E2FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB8371629BDF76D001E2FA2 /* PBXTargetDependency */,
+			);
+			name = StoveNotifierUITests;
+			productName = StoveNotifierUITests;
+			productReference = ECB8371429BDF76D001E2FA2 /* StoveNotifierUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB836F229BDF76B001E2FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ECB836F929BDF76B001E2FA2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ECB8370929BDF76D001E2FA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ECB836F929BDF76B001E2FA2;
+					};
+					ECB8371329BDF76D001E2FA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ECB836F929BDF76B001E2FA2;
+					};
+				};
+			};
+			buildConfigurationList = ECB836F529BDF76B001E2FA2 /* Build configuration list for PBXProject "StoveNotifier" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB836F129BDF76B001E2FA2;
+			productRefGroup = ECB836FB29BDF76B001E2FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB836F929BDF76B001E2FA2 /* StoveNotifier */,
+				ECB8370929BDF76D001E2FA2 /* StoveNotifierTests */,
+				ECB8371329BDF76D001E2FA2 /* StoveNotifierUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB836F829BDF76B001E2FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8370529BDF76D001E2FA2 /* Preview Assets.xcassets in Resources */,
+				ECB8370229BDF76D001E2FA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB8370829BDF76D001E2FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB8371229BDF76D001E2FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB836F629BDF76B001E2FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8370029BDF76B001E2FA2 /* ContentView.swift in Sources */,
+				ECB836FE29BDF76B001E2FA2 /* StoveNotifierApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB8370629BDF76D001E2FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8370F29BDF76D001E2FA2 /* StoveNotifierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB8371029BDF76D001E2FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB8371B29BDF76E001E2FA2 /* StoveNotifierUITestsLaunchTests.swift in Sources */,
+				ECB8371929BDF76D001E2FA2 /* StoveNotifierUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB8370C29BDF76D001E2FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB836F929BDF76B001E2FA2 /* StoveNotifier */;
+			targetProxy = ECB8370B29BDF76D001E2FA2 /* PBXContainerItemProxy */;
+		};
+		ECB8371629BDF76D001E2FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB836F929BDF76B001E2FA2 /* StoveNotifier */;
+			targetProxy = ECB8371529BDF76D001E2FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECB8371C29BDF76E001E2FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB8371D29BDF76E001E2FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB8371F29BDF76E001E2FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StoveNotifier/Preview Content\"";
+				DEVELOPMENT_TEAM = HV75YA6Z8K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = motorbott.StoveNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB8372029BDF76E001E2FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StoveNotifier/Preview Content\"";
+				DEVELOPMENT_TEAM = HV75YA6Z8K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = motorbott.StoveNotifier;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECB8372229BDF76E001E2FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV75YA6Z8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = motorbott.StoveNotifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoveNotifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StoveNotifier";
+			};
+			name = Debug;
+		};
+		ECB8372329BDF76E001E2FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV75YA6Z8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = motorbott.StoveNotifierTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StoveNotifier.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StoveNotifier";
+			};
+			name = Release;
+		};
+		ECB8372529BDF76E001E2FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV75YA6Z8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = motorbott.StoveNotifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoveNotifier;
+			};
+			name = Debug;
+		};
+		ECB8372629BDF76E001E2FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HV75YA6Z8K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = motorbott.StoveNotifierUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StoveNotifier;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB836F529BDF76B001E2FA2 /* Build configuration list for PBXProject "StoveNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB8371C29BDF76E001E2FA2 /* Debug */,
+				ECB8371D29BDF76E001E2FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB8371E29BDF76E001E2FA2 /* Build configuration list for PBXNativeTarget "StoveNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB8371F29BDF76E001E2FA2 /* Debug */,
+				ECB8372029BDF76E001E2FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB8372129BDF76E001E2FA2 /* Build configuration list for PBXNativeTarget "StoveNotifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB8372229BDF76E001E2FA2 /* Debug */,
+				ECB8372329BDF76E001E2FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB8372429BDF76E001E2FA2 /* Build configuration list for PBXNativeTarget "StoveNotifierUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB8372529BDF76E001E2FA2 /* Debug */,
+				ECB8372629BDF76E001E2FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB836F229BDF76B001E2FA2 /* Project object */;
+}
