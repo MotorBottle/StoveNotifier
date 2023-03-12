@@ -14,6 +14,10 @@
 		ECB8370F29BDF76D001E2FA2 /* StoveNotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8370E29BDF76D001E2FA2 /* StoveNotifierTests.swift */; };
 		ECB8371929BDF76D001E2FA2 /* StoveNotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8371829BDF76D001E2FA2 /* StoveNotifierUITests.swift */; };
 		ECB8371B29BDF76E001E2FA2 /* StoveNotifierUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8371A29BDF76E001E2FA2 /* StoveNotifierUITestsLaunchTests.swift */; };
+		ECB8372829BDF954001E2FA2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8372729BDF954001E2FA2 /* HomeView.swift */; };
+		ECB8372A29BDF977001E2FA2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8372929BDF977001E2FA2 /* SettingsView.swift */; };
+		ECB8372C29BDF996001E2FA2 /* AddDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8372B29BDF996001E2FA2 /* AddDeviceView.swift */; };
+		ECB8372E29BDF9BF001E2FA2 /* DeviceTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB8372D29BDF9BF001E2FA2 /* DeviceTileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		ECB8371429BDF76D001E2FA2 /* StoveNotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoveNotifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB8371829BDF76D001E2FA2 /* StoveNotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveNotifierUITests.swift; sourceTree = "<group>"; };
 		ECB8371A29BDF76E001E2FA2 /* StoveNotifierUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveNotifierUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECB8372729BDF954001E2FA2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ECB8372929BDF977001E2FA2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		ECB8372B29BDF996001E2FA2 /* AddDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceView.swift; sourceTree = "<group>"; };
+		ECB8372D29BDF9BF001E2FA2 /* DeviceTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				ECB836FD29BDF76B001E2FA2 /* StoveNotifierApp.swift */,
 				ECB836FF29BDF76B001E2FA2 /* ContentView.swift */,
+				ECB8372729BDF954001E2FA2 /* HomeView.swift */,
+				ECB8372929BDF977001E2FA2 /* SettingsView.swift */,
+				ECB8372B29BDF996001E2FA2 /* AddDeviceView.swift */,
+				ECB8372D29BDF9BF001E2FA2 /* DeviceTileView.swift */,
 				ECB8370129BDF76D001E2FA2 /* Assets.xcassets */,
 				ECB8370329BDF76D001E2FA2 /* Preview Content */,
 			);
@@ -257,6 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB8372829BDF954001E2FA2 /* HomeView.swift in Sources */,
+				ECB8372C29BDF996001E2FA2 /* AddDeviceView.swift in Sources */,
+				ECB8372E29BDF9BF001E2FA2 /* DeviceTileView.swift in Sources */,
+				ECB8372A29BDF977001E2FA2 /* SettingsView.swift in Sources */,
 				ECB8370029BDF76B001E2FA2 /* ContentView.swift in Sources */,
 				ECB836FE29BDF76B001E2FA2 /* StoveNotifierApp.swift in Sources */,
 			);

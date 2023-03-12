@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+//    @EnvironmentObject var deviceStore: DeviceStore
+    @StateObject var deviceStore = DeviceStore()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            HomeView()
+                .environmentObject(deviceStore)
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
+                }
+            SettingsView()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
         }
-        .padding()
     }
 }
 
