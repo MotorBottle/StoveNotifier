@@ -11,6 +11,7 @@ import SwiftUI
 struct HomeView: View {
 //    @ObservedObject var deviceStore: DeviceStore
     @EnvironmentObject var deviceStore: DeviceStore
+    @State private var isPresentingAddDeviceView = false
     
     var body: some View {
         NavigationView {
@@ -23,13 +24,26 @@ struct HomeView: View {
                     }
                 }
             }
+//            .navigationTitle("Home")
+//            .navigationBarItems(trailing:
+//                NavigationLink(destination: AddDeviceView()) {
+//                    Image(systemName: "plus")
+//                }
+//                .environmentObject(deviceStore)
+//            )
+            
             .navigationTitle("Home")
             .navigationBarItems(trailing:
-                NavigationLink(destination: AddDeviceView()) {
+                Button(action: {
+                    isPresentingAddDeviceView = true
+                }) {
                     Image(systemName: "plus")
                 }
-                .environmentObject(deviceStore)
             )
+            .sheet(isPresented: $isPresentingAddDeviceView) {
+                AddDeviceView()
+                    .environmentObject(deviceStore)
+            }
         }
     }
 }

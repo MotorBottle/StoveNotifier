@@ -1,4 +1,4 @@
-//v2
+//
 //  StoveNotifierApp.swift
 //  StoveNotifier
 //
@@ -108,10 +108,18 @@ class DeviceStore: ObservableObject {
     }
 
     func addDevice(_ device: Device) {
-        
+
         devices.append(device)
         
     }
+    
+      //Why this func doesn't work??
+    
+//    func saveDevice(_ device: Device) {
+//        if let index = devices.firstIndex(where: { $0.id == device.id }) {
+//            devices[index] = device
+//        }
+//    }
 
     func removeDevice(_ device: Device) {
         if let index = devices.firstIndex(where: { $0.id == device.id }) {
