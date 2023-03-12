@@ -151,11 +151,11 @@ struct DeviceEditView: View {
                     }, label: {
                         Text("Delete")
                             .foregroundColor(.red)
-                            .padding()
+                        .padding()
                     })
                     
                     Spacer()
-                    
+                
                     Button(action: {
                         let updatedDevice = Device(name: name, deviceType: deviceType, serverAddress: serverAddress, topic: topic)
                         deviceStore.removeDevice(device)
@@ -163,7 +163,7 @@ struct DeviceEditView: View {
                         isEditing = false
                     }, label: {
                         Text("Save")
-                            .padding()
+                        .padding()
                     })
                 }
                 

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+//import CocoaMQTT
 
 class Device: Identifiable, Codable {
     var id = UUID()
@@ -131,6 +132,9 @@ class DeviceStore: ObservableObject {
         
         return devices.first(where: { $0.id == id })
     }
+    
+//    private var mqttClient: CocoaMQTT?
+    
 }
 
 enum DeviceType {
