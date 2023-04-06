@@ -12,13 +12,14 @@ struct HomeView: View {
 //    @ObservedObject var deviceStore: DeviceStore
     @EnvironmentObject var deviceStore: DeviceStore
     @State private var isPresentingAddDeviceView = false
+    @State private var isEditing = false
     
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack {
                     ForEach(deviceStore.devices) { device in
-                        NavigationLink(destination: SettingsView()) {
+                        NavigationLink(destination: DeviceEditView(device: device, isEditing: $isEditing)) {
                             DeviceTileView(device: device)
                         }
                     }

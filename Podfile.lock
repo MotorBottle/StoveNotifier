@@ -1,0 +1,22 @@
+PODS:
+  - CocoaMQTT (2.1.3):
+    - CocoaMQTT/Core (= 2.1.3)
+  - CocoaMQTT/Core (2.1.3):
+    - MqttCocoaAsyncSocket (~> 1.0.8)
+  - MqttCocoaAsyncSocket (1.0.8)
+
+DEPENDENCIES:
+  - CocoaMQTT
+
+SPEC REPOS:
+  trunk:
+    - CocoaMQTT
+    - MqttCocoaAsyncSocket
+
+SPEC CHECKSUMS:
+  CocoaMQTT: f91421327f100d64374792b96bc9787e983bfe29
+  MqttCocoaAsyncSocket: 77d3b74f76228dd5a05d1f9526eab101d415b30c
+
+PODFILE CHECKSUM: ab7653c9b1ffc728bd38dfeafba12ec37529289b
+
+COCOAPODS: 1.12.0

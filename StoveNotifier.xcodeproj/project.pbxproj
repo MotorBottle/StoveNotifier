@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3B68B7054327771DF0A48A /* Pods_StoveNotifierTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98E9965B308DC120A3A2F0DB /* Pods_StoveNotifierTests.framework */; };
+		402791627C2012DDC35A8D82 /* Pods_StoveNotifier_StoveNotifierUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC995305F7CEF43CA6981147 /* Pods_StoveNotifier_StoveNotifierUITests.framework */; };
+		A27E5E4A9C407C531BA748E9 /* Pods_StoveNotifier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7DEC50BB10BA9E205ADB74 /* Pods_StoveNotifier.framework */; };
+		EC87346229DEEC76000714C4 /* DeviceEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87346129DEEC76000714C4 /* DeviceEditView.swift */; };
 		ECB836FE29BDF76B001E2FA2 /* StoveNotifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB836FD29BDF76B001E2FA2 /* StoveNotifierApp.swift */; };
 		ECB8370029BDF76B001E2FA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB836FF29BDF76B001E2FA2 /* ContentView.swift */; };
 		ECB8370229BDF76D001E2FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB8370129BDF76D001E2FA2 /* Assets.xcassets */; };
@@ -38,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018786F6458AE8B046588A21 /* Pods-StoveNotifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoveNotifier.release.xcconfig"; path = "Target Support Files/Pods-StoveNotifier/Pods-StoveNotifier.release.xcconfig"; sourceTree = "<group>"; };
+		3B854CB5FA50DFA4AE8EB648 /* Pods-StoveNotifierTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoveNotifierTests.debug.xcconfig"; path = "Target Support Files/Pods-StoveNotifierTests/Pods-StoveNotifierTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B0053A7C656096CF9D56907 /* Pods-StoveNotifier-StoveNotifierUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoveNotifier-StoveNotifierUITests.release.xcconfig"; path = "Target Support Files/Pods-StoveNotifier-StoveNotifierUITests/Pods-StoveNotifier-StoveNotifierUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98E9965B308DC120A3A2F0DB /* Pods_StoveNotifierTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoveNotifierTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7DEC50BB10BA9E205ADB74 /* Pods_StoveNotifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoveNotifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6468785857E1690196BD073 /* Pods-StoveNotifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoveNotifier.debug.xcconfig"; path = "Target Support Files/Pods-StoveNotifier/Pods-StoveNotifier.debug.xcconfig"; sourceTree = "<group>"; };
+		C24D22B9BB1A45CD0F3E5039 /* Pods-StoveNotifier-StoveNotifierUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoveNotifier-StoveNotifierUITests.debug.xcconfig"; path = "Target Support Files/Pods-StoveNotifier-StoveNotifierUITests/Pods-StoveNotifier-StoveNotifierUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC87346129DEEC76000714C4 /* DeviceEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceEditView.swift; sourceTree = "<group>"; };
 		ECB836FA29BDF76B001E2FA2 /* StoveNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoveNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB836FD29BDF76B001E2FA2 /* StoveNotifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveNotifierApp.swift; sourceTree = "<group>"; };
 		ECB836FF29BDF76B001E2FA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +64,8 @@
 		ECB8372929BDF977001E2FA2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		ECB8372B29BDF996001E2FA2 /* AddDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeviceView.swift; sourceTree = "<group>"; };
 		ECB8372D29BDF9BF001E2FA2 /* DeviceTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTileView.swift; sourceTree = "<group>"; };
+		EDDD2EE17DB92D1D79A696CC /* Pods-StoveNotifierTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StoveNotifierTests.release.xcconfig"; path = "Target Support Files/Pods-StoveNotifierTests/Pods-StoveNotifierTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC995305F7CEF43CA6981147 /* Pods_StoveNotifier_StoveNotifierUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StoveNotifier_StoveNotifierUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A27E5E4A9C407C531BA748E9 /* Pods_StoveNotifier.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3B68B7054327771DF0A48A /* Pods_StoveNotifierTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402791627C2012DDC35A8D82 /* Pods_StoveNotifier_StoveNotifierUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C85827785EA6751B7C75F43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6468785857E1690196BD073 /* Pods-StoveNotifier.debug.xcconfig */,
+				018786F6458AE8B046588A21 /* Pods-StoveNotifier.release.xcconfig */,
+				C24D22B9BB1A45CD0F3E5039 /* Pods-StoveNotifier-StoveNotifierUITests.debug.xcconfig */,
+				7B0053A7C656096CF9D56907 /* Pods-StoveNotifier-StoveNotifierUITests.release.xcconfig */,
+				3B854CB5FA50DFA4AE8EB648 /* Pods-StoveNotifierTests.debug.xcconfig */,
+				EDDD2EE17DB92D1D79A696CC /* Pods-StoveNotifierTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		413E546DECC83EDBF5FBE34B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B7DEC50BB10BA9E205ADB74 /* Pods_StoveNotifier.framework */,
+				FC995305F7CEF43CA6981147 /* Pods_StoveNotifier_StoveNotifierUITests.framework */,
+				98E9965B308DC120A3A2F0DB /* Pods_StoveNotifierTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ECB836F129BDF76B001E2FA2 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +126,8 @@
 				ECB8370D29BDF76D001E2FA2 /* StoveNotifierTests */,
 				ECB8371729BDF76D001E2FA2 /* StoveNotifierUITests */,
 				ECB836FB29BDF76B001E2FA2 /* Products */,
+				0C85827785EA6751B7C75F43 /* Pods */,
+				413E546DECC83EDBF5FBE34B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +150,7 @@
 				ECB8372929BDF977001E2FA2 /* SettingsView.swift */,
 				ECB8372B29BDF996001E2FA2 /* AddDeviceView.swift */,
 				ECB8372D29BDF9BF001E2FA2 /* DeviceTileView.swift */,
+				EC87346129DEEC76000714C4 /* DeviceEditView.swift */,
 				ECB8370129BDF76D001E2FA2 /* Assets.xcassets */,
 				ECB8370329BDF76D001E2FA2 /* Preview Content */,
 			);
@@ -146,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB8371E29BDF76E001E2FA2 /* Build configuration list for PBXNativeTarget "StoveNotifier" */;
 			buildPhases = (
+				3B9CB90221FA07682D8FAB76 /* [CP] Check Pods Manifest.lock */,
 				ECB836F629BDF76B001E2FA2 /* Sources */,
 				ECB836F729BDF76B001E2FA2 /* Frameworks */,
 				ECB836F829BDF76B001E2FA2 /* Resources */,
+				0E5853CC86DB5B46B928849D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB8372129BDF76E001E2FA2 /* Build configuration list for PBXNativeTarget "StoveNotifierTests" */;
 			buildPhases = (
+				A2F1ACAA8EA0477858CA6EE3 /* [CP] Check Pods Manifest.lock */,
 				ECB8370629BDF76D001E2FA2 /* Sources */,
 				ECB8370729BDF76D001E2FA2 /* Frameworks */,
 				ECB8370829BDF76D001E2FA2 /* Resources */,
@@ -181,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB8372429BDF76E001E2FA2 /* Build configuration list for PBXNativeTarget "StoveNotifierUITests" */;
 			buildPhases = (
+				E26A1DCDBEA9D2F84B7FE4E7 /* [CP] Check Pods Manifest.lock */,
 				ECB8371029BDF76D001E2FA2 /* Sources */,
 				ECB8371129BDF76D001E2FA2 /* Frameworks */,
 				ECB8371229BDF76D001E2FA2 /* Resources */,
+				B86CA4ED62F755B56FD55B6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +312,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E5853CC86DB5B46B928849D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoveNotifier/Pods-StoveNotifier-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoveNotifier/Pods-StoveNotifier-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StoveNotifier/Pods-StoveNotifier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B9CB90221FA07682D8FAB76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoveNotifier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F1ACAA8EA0477858CA6EE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoveNotifierTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B86CA4ED62F755B56FD55B6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoveNotifier-StoveNotifierUITests/Pods-StoveNotifier-StoveNotifierUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StoveNotifier-StoveNotifierUITests/Pods-StoveNotifier-StoveNotifierUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StoveNotifier-StoveNotifierUITests/Pods-StoveNotifier-StoveNotifierUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E26A1DCDBEA9D2F84B7FE4E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StoveNotifier-StoveNotifierUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ECB836F629BDF76B001E2FA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -274,6 +425,7 @@
 				ECB8372E29BDF9BF001E2FA2 /* DeviceTileView.swift in Sources */,
 				ECB8372A29BDF977001E2FA2 /* SettingsView.swift in Sources */,
 				ECB8370029BDF76B001E2FA2 /* ContentView.swift in Sources */,
+				EC87346229DEEC76000714C4 /* DeviceEditView.swift in Sources */,
 				ECB836FE29BDF76B001E2FA2 /* StoveNotifierApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +579,7 @@
 		};
 		ECB8371F29BDF76E001E2FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6468785857E1690196BD073 /* Pods-StoveNotifier.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,6 +610,7 @@
 		};
 		ECB8372029BDF76E001E2FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018786F6458AE8B046588A21 /* Pods-StoveNotifier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,6 +641,7 @@
 		};
 		ECB8372229BDF76E001E2FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B854CB5FA50DFA4AE8EB648 /* Pods-StoveNotifierTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +662,7 @@
 		};
 		ECB8372329BDF76E001E2FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDD2EE17DB92D1D79A696CC /* Pods-StoveNotifierTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +683,7 @@
 		};
 		ECB8372529BDF76E001E2FA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24D22B9BB1A45CD0F3E5039 /* Pods-StoveNotifier-StoveNotifierUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +702,7 @@
 		};
 		ECB8372629BDF76E001E2FA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0053A7C656096CF9D56907 /* Pods-StoveNotifier-StoveNotifierUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

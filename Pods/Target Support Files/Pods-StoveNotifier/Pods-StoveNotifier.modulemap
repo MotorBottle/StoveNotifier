@@ -1,0 +1,6 @@
+framework module Pods_StoveNotifier {
+  umbrella header "Pods-StoveNotifier-umbrella.h"
+
+  export *
+  module * { export * }
+}
