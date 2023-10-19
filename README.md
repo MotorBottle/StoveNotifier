@@ -8,3 +8,5 @@ The 2 folders testFinalProduct/FinalproductSpeaker are working prototypes demons
 For IOS app, still working on it, so won't be quite usable for now.
 
 ![image](https://github.com/MotorBottle/StoveNotifierWIP/assets/71703952/7048cf7e-3a7e-4f38-b9f1-67b9a9fde353)
+
+![image](https://github.com/MotorBottle/StoveNotifier/assets/71703952/57f65880-e05c-4831-b590-dc453d67801f)
