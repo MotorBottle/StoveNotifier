@@ -1,5 +1,5 @@
 # StoveNotifier
-This is a product prototype with an idea of avoiding accident home fire caused by stove fire forgotton to be turned off.
+This is a product prototype with an idea of avoiding accident home fire caused by stove fire that was forgotton to be turned off.
 
 79 people surveyed, over half of respondents said that they had met with situation that got forgotton to turn off the stove fire and spoiled the food. There were also news that fire started because a gas stove was forgotten to be closed. There are many families that can’t change their stove into a smart one (with timer or IoT functions). So I think we could create a low cost external monitor to watch the stove and remind the user to check when needed.
 
